@@ -12,3 +12,13 @@ p, h1, h4 {
 div p {
     color: blue;
 }
+
+/* ID */
+#first-para {
+    color: blueviolet;
+}
+
+/* Class */
+.first-para {
+    color: green;
+}

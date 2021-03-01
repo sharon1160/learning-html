@@ -32,4 +32,6 @@ div {
 
 div ul {
     list-style-type: none;
+    list-style-type: square;
+    list-style-type: none;
 }

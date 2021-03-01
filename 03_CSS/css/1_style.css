@@ -32,6 +32,7 @@ div {
     float: right;
     border-radius: 25px;
     margin: 40px;
+    padding: 20px;
 }
 
 div ul {

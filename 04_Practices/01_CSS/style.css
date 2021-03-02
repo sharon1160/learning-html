@@ -19,3 +19,10 @@ img#image {
     border: 2px solid red;
     border-radius: 5px;
 }
+
+#picture-css {
+    width: 900px;
+    height: 300px;
+    background-image: url(../images/image1.jpg);
+    margin: 0 auto;
+}

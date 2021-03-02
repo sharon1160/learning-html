@@ -26,3 +26,25 @@ img#image {
     background-image: url(../images/image1.jpg);
     margin: 0 auto;
 }
+
+#hovers {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(../images/image1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+#hovers h2 {
+    text-align: center;
+}
+
+/* A sort of selector */
+#hovers:hover {
+    /* background-color: black; */
+    border: 1px solid red;
+    color: white;
+    opacity: 1;
+}

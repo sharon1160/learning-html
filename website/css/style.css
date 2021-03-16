@@ -91,3 +91,7 @@ footer a {
     color: #FFFFFF;
     font-size: 11px;
 }
+
+#home-image img{
+    width: 100%;
+}

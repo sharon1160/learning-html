@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/scripts.js"></script>
 </head>
-<body>
+<body id="contact">
     <div class="container">
         <header class="header">
 
@@ -29,23 +29,29 @@
         </aside>
 
         <article class="main">
-            <h1>Contact</h1>
+            <h1 class="page-heading">Contact</h1>
 
             <div id="form">
 
                 <form action="process.php">
                     
+                    <p>
                     <label for="name">Name:</label>
-                    <input type="text" name="name">
+                    <input type="text" name="name" placeholder="Your Name">
+                    </p>
 
+                    <p>
                     <label for="name">Email:</label>
                     <input type="text" name="email">
-                    
+                    </p>
+
                     <label for="name">Subject:</label>
                     <input type="text" name="subject">
 
-                    <label for="name">Message:</label>
+                    <p>
+                    <label for="message">Message:</label>
                     <textarea name="message" id="" cols="30" rows="10"></textarea>
+                    </p>
 
                 </form>
 

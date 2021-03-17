@@ -20,11 +20,13 @@ body {
 }
 
 .menu {
+    display: flex;
     background: #3b7687;
     padding: 6px 0 6px 40px;
 }
 
 .menu a {
+    flex: 0.1;
     color: #c5d6db;
     text-decoration: none;
     font-size: 14px;
